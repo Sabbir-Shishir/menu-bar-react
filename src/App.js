@@ -13,6 +13,8 @@ function App() {
           <h1>our menu</h1>
           <div className="underline"></div>
         </div>
+        <Categories></Categories>
+        <Menu items={menuItems}></Menu>
       </section>
     </main>
   );
